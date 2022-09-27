@@ -21,6 +21,23 @@
         border-bottom: 1px solid #444
         width: 100%
 
+        #div-btn
+            display: flex
+            gap: 5px
+
+            svg
+                background-color: #ffffff
+                color: #0b5d62
+                padding: .1rem
+                width: 1.5rem
+                height: 1.5rem
+                border-radius: variables.$card-border-radius
+                margin-top: -5px
+                cursor: pointer
+                &:hover
+                    background: variables.$gradient
+                    color: white
+
         h3
             color: variables.$text-color-secondary
             font-size: .8rem
@@ -29,6 +46,7 @@
         p
             color: variables.$text-color
             font-weight: bold
+            font-size: .9rem
 
         svg
             background-color: variables.$bg-color

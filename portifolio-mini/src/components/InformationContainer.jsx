@@ -1,8 +1,15 @@
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { useState, useEffect } from "react";
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment, AiOutlineCopy } from "react-icons/ai";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 import "../styles/components/informationcontainer.sass";
 
 const InformationContainer = () => {
+    const [copyEmail, setCopyEmail] = useState("");
+    useEffect(() => {
+        setCopyEmail("gabrielbvlima@gmail.com");
+    });
+
     return (
         <section id="information">
             <div className="info-card">
@@ -16,7 +23,12 @@ const InformationContainer = () => {
                 <AiOutlineMail id="email-icon" />
                 <div>
                     <h3>E-mail</h3>
-                    <p>gabrielbvlima@gmail.com</p>
+                    <div id="div-btn">
+                        <p>gabrielbvlima@gmail.com</p>
+                        <CopyToClipboard text={copyEmail}>
+                            <AiOutlineCopy />
+                        </CopyToClipboard>
+                    </div>
                 </div>
             </div>
             <div className="info-card">
