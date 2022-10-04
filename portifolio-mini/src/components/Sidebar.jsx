@@ -8,7 +8,7 @@ import "../styles/components/sidebar.sass";
 
 const Sidebar = () => {
     const urlDownloadCurriculo =
-        "https://drive.google.com/u/0/uc?id=1wSHFAF4REG1SD_Qqdy2x4EaYJUIdiz_7&export=download";
+        "https://drive.google.com/u/0/uc?id=1GI4vqrnRZJXFps6-jdzWPENVFk27At3L&export=download";
     const [download, setDownload] = useState("");
 
     return (
@@ -26,6 +26,9 @@ const Sidebar = () => {
                 Baixar Curriculo
             </button>
             {download && <iframe src={download}></iframe>}
+            <a className="btn" href="https://portfolio-gabriel-gilt.vercel.app/" target="__blank">
+                Portfolio Antigo
+            </a>
         </aside>
     );
 };
