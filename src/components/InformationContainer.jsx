@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment, AiOutlineCopy } from "react-icons/ai";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-import "../styles/components/informationContainer.sass";
+import "../styles/components/informationcontainer.sass";
 
 const InformationContainer = () => {
     const [copyEmail, setCopyEmail] = useState("");
