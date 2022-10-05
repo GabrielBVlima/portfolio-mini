@@ -8,7 +8,7 @@ import "../styles/components/sidebar.sass";
 
 const Sidebar = () => {
     const urlDownloadCurriculo =
-        "https://drive.google.com/u/0/uc?id=1GI4vqrnRZJXFps6-jdzWPENVFk27At3L&export=download";
+        "https://drive.google.com/uc?id=1iA0tTekYJDVDolfeEQcqEJ9xZGXwz1kW&export=download";
     const [download, setDownload] = useState("");
 
     return (
