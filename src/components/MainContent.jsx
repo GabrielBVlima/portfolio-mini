@@ -1,9 +1,9 @@
 import AboutContainer from "./AboutContainer";
 import TechnologiesContainer from "./TechnologiesContainer";
+import Experience from "./Experience";
 import ProjectsContainer from "./ProjectsContainer";
 
 import "../styles/components/maincontent.sass";
-import Experience from "./experience";
 
 const MainContent = () => {
     return (

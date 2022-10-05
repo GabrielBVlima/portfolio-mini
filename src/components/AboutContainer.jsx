@@ -21,6 +21,12 @@ const AboutContainer = () => {
                 encante vendo cada elemento contido na página.
             </p>
             <p>
+                Criei um novo portfolio e um novo github para iniciar projetos maiores e ter uma
+                melhor organização, visto que o anterior estava muito bagunçado, mas você pode
+                acessar o portfolio antigo nos botões ao lado ou nos do final da pagina e la ter
+                acesso aos meus projetos e github antigo.
+            </p>
+            <p>
                 Espero muito conseguir uma oportunidade para trabalhar com desenvolvimento
                 front-end.
             </p>
