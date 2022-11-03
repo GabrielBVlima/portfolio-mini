@@ -1,4 +1,4 @@
-import { technologiesData } from "../DataBase/technologies";
+import { technologiesData } from "../dataBase/technologies";
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = technologiesData;
