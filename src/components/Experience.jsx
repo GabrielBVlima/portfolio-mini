@@ -1,4 +1,4 @@
-import { experiencesData } from "../DataBase/experience";
+import { experiencesData } from "../dataBase/experience";
 import "../styles/components/technologiescontainer.sass";
 
 const experiences = experiencesData;
